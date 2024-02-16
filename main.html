@@ -18,13 +18,20 @@
 	<div>
 	<h1>Text: 3 random audios</h1>
 <nav class ="audio">
-	<ul>
-	 <li><a href="#">URL 1: http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3</a></li>
-	 <li><a href="#">URL 2: http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg</a></li>
-	 <li><a href="#">URL 3: http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3</a></li>
-</ul>
-</nav>
-</div>
+	<audio controls>
+	<source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3"
+	 type="audio/mpeg"/>
+	< source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
+	  type="audio/ogg; codecs=opus"/>
+	<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"
+	 type="audio/ogg; codecs=vorbis"/>
+	<source src=" http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3"
+	type="audio/mpeg"/>
+</audio>
+	
+	
+	
+	
 	
 	
 	  <script type="text/javascript" src="./script.js">
